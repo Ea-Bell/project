@@ -9,3 +9,15 @@ E:\[0]github\TeamProject\TeamProject\obj\Debug\TeamProject.csproj.GenerateResour
 E:\[0]github\TeamProject\TeamProject\obj\Debug\TeamProject.csproj.CoreCompileInputs.cache
 E:\[0]github\TeamProject\TeamProject\obj\Debug\TeamProject.exe
 E:\[0]github\TeamProject\TeamProject\obj\Debug\TeamProject.pdb
+E:\project\TeamProject\TeamProject\bin\Debug\TeamProject.exe.config
+E:\project\TeamProject\TeamProject\bin\Debug\TeamProject.exe
+E:\project\TeamProject\TeamProject\bin\Debug\TeamProject.pdb
+E:\project\TeamProject\TeamProject\obj\Debug\TeamProject.csprojAssemblyReference.cache
+E:\project\TeamProject\TeamProject\obj\Debug\TeamProject.LogInForm.resources
+E:\project\TeamProject\TeamProject\obj\Debug\TeamProject.Properties.Resources.resources
+E:\project\TeamProject\TeamProject\obj\Debug\TeamProject.영화관리.resources
+E:\project\TeamProject\TeamProject\obj\Debug\TeamProject.NewInfo.resources
+E:\project\TeamProject\TeamProject\obj\Debug\TeamProject.csproj.GenerateResource.cache
+E:\project\TeamProject\TeamProject\obj\Debug\TeamProject.csproj.CoreCompileInputs.cache
+E:\project\TeamProject\TeamProject\obj\Debug\TeamProject.exe
+E:\project\TeamProject\TeamProject\obj\Debug\TeamProject.pdb

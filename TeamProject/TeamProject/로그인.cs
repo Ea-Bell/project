@@ -30,5 +30,16 @@ namespace TeamProject
             NewInfo newInfo = new NewInfo();
             newInfo.ShowDialog();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            영화관리 파일 = new 영화관리();
+            파일.ShowDialog();
+        }
+
+        private void LoginForm_Button_Cancel_Click(object sender, EventArgs e)
+        {
+            Dispose();
+        }
     }
 }
