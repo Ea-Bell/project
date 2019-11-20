@@ -35,6 +35,7 @@
             this.LoginForm_Button_Account = new System.Windows.Forms.Button();
             this.LoginForm_Button_Cancel = new System.Windows.Forms.Button();
             this.LoginForm_Button_Login = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // LogInForm_Text_ID
@@ -87,6 +88,7 @@
             this.LoginForm_Button_Cancel.TabIndex = 3;
             this.LoginForm_Button_Cancel.Text = "취소하기";
             this.LoginForm_Button_Cancel.UseVisualStyleBackColor = true;
+            this.LoginForm_Button_Cancel.Click += new System.EventHandler(this.LoginForm_Button_Cancel_Click);
             // 
             // LoginForm_Button_Login
             // 
@@ -97,11 +99,22 @@
             this.LoginForm_Button_Login.Text = "로그인";
             this.LoginForm_Button_Login.UseVisualStyleBackColor = true;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(321, 320);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(169, 23);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "테스트용영화관리";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // LogInForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(502, 355);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.LoginForm_Button_Login);
             this.Controls.Add(this.LoginForm_Button_Cancel);
             this.Controls.Add(this.LoginForm_Button_Account);
@@ -126,6 +139,7 @@
         private System.Windows.Forms.Button LoginForm_Button_Account;
         private System.Windows.Forms.Button LoginForm_Button_Cancel;
         private System.Windows.Forms.Button LoginForm_Button_Login;
+        private System.Windows.Forms.Button button1;
     }
 }
 

@@ -18,7 +18,7 @@ namespace TeamProject
         {
             InitializeComponent();
             this.ActiveControl = NewInfo_Text_Id;  
-//dddddddddddddddddddddddddddddddddddddd
+ 
         }
 
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
@@ -33,7 +33,16 @@ namespace TeamProject
 
         private void NewInfo_Load(object sender, EventArgs e)
         {
+            남자.Checked = true;
+        }
 
+        private void 남자_CheckedChanged(object sender, EventArgs e)
+        {
+            if (남자.Checked == true)
+            {
+                여자.Checked = false;
+            }
+             
         }
     }
 }

@@ -46,6 +46,9 @@
             this.label8 = new System.Windows.Forms.Label();
             this.NewInfo_Input = new System.Windows.Forms.Button();
             this.NewInfo_Cancel = new System.Windows.Forms.Button();
+            this.남자 = new System.Windows.Forms.CheckBox();
+            this.여자 = new System.Windows.Forms.CheckBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // NewInfo_Lable_Id
@@ -181,7 +184,7 @@
             // 
             // NewInfo_Input
             // 
-            this.NewInfo_Input.Location = new System.Drawing.Point(137, 318);
+            this.NewInfo_Input.Location = new System.Drawing.Point(137, 339);
             this.NewInfo_Input.Name = "NewInfo_Input";
             this.NewInfo_Input.Size = new System.Drawing.Size(89, 28);
             this.NewInfo_Input.TabIndex = 17;
@@ -190,7 +193,7 @@
             // 
             // NewInfo_Cancel
             // 
-            this.NewInfo_Cancel.Location = new System.Drawing.Point(348, 318);
+            this.NewInfo_Cancel.Location = new System.Drawing.Point(348, 339);
             this.NewInfo_Cancel.Name = "NewInfo_Cancel";
             this.NewInfo_Cancel.Size = new System.Drawing.Size(89, 28);
             this.NewInfo_Cancel.TabIndex = 18;
@@ -198,11 +201,44 @@
             this.NewInfo_Cancel.UseVisualStyleBackColor = true;
             this.NewInfo_Cancel.Click += new System.EventHandler(this.NewInfo_Cancel_Click);
             // 
+            // 남자
+            // 
+            this.남자.AutoSize = true;
+            this.남자.Location = new System.Drawing.Point(220, 279);
+            this.남자.Name = "남자";
+            this.남자.Size = new System.Drawing.Size(59, 19);
+            this.남자.TabIndex = 19;
+            this.남자.Text = "남자";
+            this.남자.UseVisualStyleBackColor = true;
+            this.남자.CheckedChanged += new System.EventHandler(this.남자_CheckedChanged);
+            // 
+            // 여자
+            // 
+            this.여자.AutoSize = true;
+            this.여자.Location = new System.Drawing.Point(301, 279);
+            this.여자.Name = "여자";
+            this.여자.Size = new System.Drawing.Size(59, 19);
+            this.여자.TabIndex = 20;
+            this.여자.Text = "여자";
+            this.여자.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(149, 283);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(37, 15);
+            this.label1.TabIndex = 21;
+            this.label1.Text = "성별";
+            // 
             // NewInfo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(528, 426);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.여자);
+            this.Controls.Add(this.남자);
             this.Controls.Add(this.NewInfo_Cancel);
             this.Controls.Add(this.NewInfo_Input);
             this.Controls.Add(this.label8);
@@ -249,5 +285,8 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button NewInfo_Input;
         private System.Windows.Forms.Button NewInfo_Cancel;
+        private System.Windows.Forms.CheckBox 남자;
+        private System.Windows.Forms.CheckBox 여자;
+        private System.Windows.Forms.Label label1;
     }
 }
