@@ -6,7 +6,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamProject", "TeamProject\TeamProject.csproj", "{DF9CCBFF-9F3D-410C-B8F8-87286035E0A9}"
 EndProject
 Global
-//수정 
+//수정수정
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
