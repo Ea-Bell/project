@@ -21,3 +21,15 @@ E:\project\TeamProject\TeamProject\obj\Debug\TeamProject.csproj.GenerateResource
 E:\project\TeamProject\TeamProject\obj\Debug\TeamProject.csproj.CoreCompileInputs.cache
 E:\project\TeamProject\TeamProject\obj\Debug\TeamProject.exe
 E:\project\TeamProject\TeamProject\obj\Debug\TeamProject.pdb
+C:\Users\user\Documents\GitHub\project\TeamProject\TeamProject\bin\Debug\TeamProject.exe.config
+C:\Users\user\Documents\GitHub\project\TeamProject\TeamProject\bin\Debug\TeamProject.exe
+C:\Users\user\Documents\GitHub\project\TeamProject\TeamProject\bin\Debug\TeamProject.pdb
+C:\Users\user\Documents\GitHub\project\TeamProject\TeamProject\obj\Debug\TeamProject.csprojAssemblyReference.cache
+C:\Users\user\Documents\GitHub\project\TeamProject\TeamProject\obj\Debug\TeamProject.LogInForm.resources
+C:\Users\user\Documents\GitHub\project\TeamProject\TeamProject\obj\Debug\TeamProject.Properties.Resources.resources
+C:\Users\user\Documents\GitHub\project\TeamProject\TeamProject\obj\Debug\TeamProject.영화관리.resources
+C:\Users\user\Documents\GitHub\project\TeamProject\TeamProject\obj\Debug\TeamProject.NewInfo.resources
+C:\Users\user\Documents\GitHub\project\TeamProject\TeamProject\obj\Debug\TeamProject.csproj.GenerateResource.cache
+C:\Users\user\Documents\GitHub\project\TeamProject\TeamProject\obj\Debug\TeamProject.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\project\TeamProject\TeamProject\obj\Debug\TeamProject.exe
+C:\Users\user\Documents\GitHub\project\TeamProject\TeamProject\obj\Debug\TeamProject.pdb
