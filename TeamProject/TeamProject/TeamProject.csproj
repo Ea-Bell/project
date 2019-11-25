@@ -48,7 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="OledbCon.cs" />
+    <Compile Include="영화관리DB.cs" />
     <Compile Include="그림배치.cs">
       <SubType>Form</SubType>
     </Compile>
