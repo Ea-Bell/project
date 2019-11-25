@@ -41,6 +41,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.테스트용_Label = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.영화포스터)).BeginInit();
             this.SuspendLayout();
             // 
@@ -68,7 +69,7 @@
             // 경로명
             // 
             this.경로명.AutoSize = true;
-            this.경로명.Location = new System.Drawing.Point(39, 318);
+            this.경로명.Location = new System.Drawing.Point(316, 26);
             this.경로명.Name = "경로명";
             this.경로명.Size = new System.Drawing.Size(41, 12);
             this.경로명.TabIndex = 2;
@@ -160,11 +161,21 @@
             this.label1.TabIndex = 15;
             this.label1.Text = "영화코드";
             // 
+            // 테스트용_Label
+            // 
+            this.테스트용_Label.AutoSize = true;
+            this.테스트용_Label.Location = new System.Drawing.Point(50, 316);
+            this.테스트용_Label.Name = "테스트용_Label";
+            this.테스트용_Label.Size = new System.Drawing.Size(88, 12);
+            this.테스트용_Label.TabIndex = 23;
+            this.테스트용_Label.Text = "테스트용 Label";
+            // 
             // 영화관리
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(494, 360);
+            this.Controls.Add(this.테스트용_Label);
             this.Controls.Add(this.예고편urlTxt);
             this.Controls.Add(this.감독명txt);
             this.Controls.Add(this.영화명txt);
@@ -202,5 +213,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label 테스트용_Label;
     }
 }
