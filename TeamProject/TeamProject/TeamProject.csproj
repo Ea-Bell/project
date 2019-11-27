@@ -107,5 +107,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\권소진\WindowsFormsApp1\권소진.csproj">
+      <Project>{bc068df1-a33c-44cf-a55d-3d3c0f4f61ae}</Project>
+      <Name>권소진</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

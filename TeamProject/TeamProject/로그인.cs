@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApp1;
 
 namespace TeamProject
 {
@@ -40,6 +41,21 @@ namespace TeamProject
         private void LoginForm_Button_Cancel_Click(object sender, EventArgs e)
         {
             Dispose();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void LoginForm_Button_Login_Click(object sender, EventArgs e)
+        {
+
+            //아이디 체킹후 로그인하기.
+
+
+            예매하기 예매 = new 예매하기();
+            예매.ShowDialog();
         }
     }
 }
