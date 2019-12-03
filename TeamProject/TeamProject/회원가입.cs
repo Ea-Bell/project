@@ -144,7 +144,7 @@ namespace TeamProject
                     newRow["PW"] = NewInfo_Text_Pw.Text;
                     newRow["NAME"] = NewInfo_Text_Text_Name.Text;
                     newRow["PHONE"] = NewInfo_Textbox_Num1.Text + "-" + NewInfo_Textbox_Num2.Text + "-" + NewInfo_Textbox_Num3.Text;
-                    newRow["BIRTH"] = "970725";
+                    newRow["BIRTH"] = NewInfo_date.Value.ToString("yyyy-MM-dd");
                     newRow["SEX"] = Scheck;
 
                     MemberTable.Rows.Add(newRow);
