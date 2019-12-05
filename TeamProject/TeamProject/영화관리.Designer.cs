@@ -42,25 +42,30 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.테스트용_Label = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.상영영화관리 = new System.Windows.Forms.Button();
+            this.수정하기 = new System.Windows.Forms.Button();
+            this.삭제하기 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.영화포스터)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // 영화포스터
             // 
-            this.영화포스터.Location = new System.Drawing.Point(63, 47);
+            this.영화포스터.Location = new System.Drawing.Point(72, 59);
             this.영화포스터.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.영화포스터.Name = "영화포스터";
-            this.영화포스터.Size = new System.Drawing.Size(187, 177);
+            this.영화포스터.Size = new System.Drawing.Size(214, 221);
             this.영화포스터.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.영화포스터.TabIndex = 0;
             this.영화포스터.TabStop = false;
             // 
             // 그림찾기btn
             // 
-            this.그림찾기btn.Location = new System.Drawing.Point(116, 256);
+            this.그림찾기btn.Location = new System.Drawing.Point(133, 320);
             this.그림찾기btn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.그림찾기btn.Name = "그림찾기btn";
-            this.그림찾기btn.Size = new System.Drawing.Size(66, 18);
+            this.그림찾기btn.Size = new System.Drawing.Size(75, 22);
             this.그림찾기btn.TabIndex = 1;
             this.그림찾기btn.Text = "그림찾기";
             this.그림찾기btn.UseVisualStyleBackColor = true;
@@ -69,18 +74,18 @@
             // 경로명
             // 
             this.경로명.AutoSize = true;
-            this.경로명.Location = new System.Drawing.Point(316, 26);
+            this.경로명.Location = new System.Drawing.Point(361, 32);
             this.경로명.Name = "경로명";
-            this.경로명.Size = new System.Drawing.Size(41, 12);
+            this.경로명.Size = new System.Drawing.Size(52, 15);
             this.경로명.TabIndex = 2;
             this.경로명.Text = "경로명";
             // 
             // 저장
             // 
-            this.저장.Location = new System.Drawing.Point(291, 256);
+            this.저장.Location = new System.Drawing.Point(308, 319);
             this.저장.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.저장.Name = "저장";
-            this.저장.Size = new System.Drawing.Size(66, 18);
+            this.저장.Size = new System.Drawing.Size(75, 22);
             this.저장.TabIndex = 3;
             this.저장.Text = "저장";
             this.저장.UseVisualStyleBackColor = true;
@@ -88,10 +93,10 @@
             // 
             // 취소
             // 
-            this.취소.Location = new System.Drawing.Point(369, 256);
+            this.취소.Location = new System.Drawing.Point(389, 319);
             this.취소.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.취소.Name = "취소";
-            this.취소.Size = new System.Drawing.Size(66, 18);
+            this.취소.Size = new System.Drawing.Size(75, 22);
             this.취소.TabIndex = 4;
             this.취소.Text = "취소";
             this.취소.UseVisualStyleBackColor = true;
@@ -99,82 +104,129 @@
             // 
             // 예고편urlTxt
             // 
-            this.예고편urlTxt.Location = new System.Drawing.Point(335, 210);
+            this.예고편urlTxt.Location = new System.Drawing.Point(383, 262);
+            this.예고편urlTxt.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.예고편urlTxt.Name = "예고편urlTxt";
-            this.예고편urlTxt.Size = new System.Drawing.Size(100, 21);
+            this.예고편urlTxt.Size = new System.Drawing.Size(184, 25);
             this.예고편urlTxt.TabIndex = 22;
             // 
             // 감독명txt
             // 
-            this.감독명txt.Location = new System.Drawing.Point(335, 165);
+            this.감독명txt.Location = new System.Drawing.Point(383, 206);
+            this.감독명txt.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.감독명txt.Name = "감독명txt";
-            this.감독명txt.Size = new System.Drawing.Size(100, 21);
+            this.감독명txt.Size = new System.Drawing.Size(184, 25);
             this.감독명txt.TabIndex = 21;
             // 
             // 영화명txt
             // 
-            this.영화명txt.Location = new System.Drawing.Point(335, 114);
+            this.영화명txt.Location = new System.Drawing.Point(383, 142);
+            this.영화명txt.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.영화명txt.Name = "영화명txt";
-            this.영화명txt.Size = new System.Drawing.Size(100, 21);
+            this.영화명txt.Size = new System.Drawing.Size(184, 25);
             this.영화명txt.TabIndex = 20;
             // 
             // 영화코드txt
             // 
-            this.영화코드txt.Location = new System.Drawing.Point(335, 62);
+            this.영화코드txt.Location = new System.Drawing.Point(383, 78);
+            this.영화코드txt.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.영화코드txt.Name = "영화코드txt";
-            this.영화코드txt.Size = new System.Drawing.Size(100, 21);
+            this.영화코드txt.Size = new System.Drawing.Size(184, 25);
             this.영화코드txt.TabIndex = 19;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(265, 214);
+            this.label3.Location = new System.Drawing.Point(303, 268);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(64, 12);
+            this.label3.Size = new System.Drawing.Size(80, 15);
             this.label3.TabIndex = 18;
             this.label3.Text = "예고편URL";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(265, 165);
+            this.label4.Location = new System.Drawing.Point(303, 206);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(41, 12);
+            this.label4.Size = new System.Drawing.Size(52, 15);
             this.label4.TabIndex = 17;
             this.label4.Text = "감독명";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(265, 114);
+            this.label2.Location = new System.Drawing.Point(303, 142);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(41, 12);
+            this.label2.Size = new System.Drawing.Size(52, 15);
             this.label2.TabIndex = 16;
             this.label2.Text = "영화명";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(265, 72);
+            this.label1.Location = new System.Drawing.Point(303, 90);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(53, 12);
+            this.label1.Size = new System.Drawing.Size(67, 15);
             this.label1.TabIndex = 15;
             this.label1.Text = "영화코드";
             // 
             // 테스트용_Label
             // 
             this.테스트용_Label.AutoSize = true;
-            this.테스트용_Label.Location = new System.Drawing.Point(50, 316);
+            this.테스트용_Label.Location = new System.Drawing.Point(12, 575);
             this.테스트용_Label.Name = "테스트용_Label";
-            this.테스트용_Label.Size = new System.Drawing.Size(88, 12);
+            this.테스트용_Label.Size = new System.Drawing.Size(107, 15);
             this.테스트용_Label.TabIndex = 23;
             this.테스트용_Label.Text = "테스트용 Label";
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(15, 395);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowTemplate.Height = 27;
+            this.dataGridView1.Size = new System.Drawing.Size(503, 150);
+            this.dataGridView1.TabIndex = 24;
+            // 
+            // 상영영화관리
+            // 
+            this.상영영화관리.Location = new System.Drawing.Point(171, 366);
+            this.상영영화관리.Name = "상영영화관리";
+            this.상영영화관리.Size = new System.Drawing.Size(115, 23);
+            this.상영영화관리.TabIndex = 25;
+            this.상영영화관리.Text = "상영영화관리";
+            this.상영영화관리.UseVisualStyleBackColor = true;
+            this.상영영화관리.Click += new System.EventHandler(this.상영영화관리_Click);
+            // 
+            // 수정하기
+            // 
+            this.수정하기.Location = new System.Drawing.Point(470, 320);
+            this.수정하기.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.수정하기.Name = "수정하기";
+            this.수정하기.Size = new System.Drawing.Size(75, 22);
+            this.수정하기.TabIndex = 26;
+            this.수정하기.Text = "수정하기";
+            this.수정하기.UseVisualStyleBackColor = true;
+            // 
+            // 삭제하기
+            // 
+            this.삭제하기.Location = new System.Drawing.Point(551, 320);
+            this.삭제하기.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.삭제하기.Name = "삭제하기";
+            this.삭제하기.Size = new System.Drawing.Size(75, 22);
+            this.삭제하기.TabIndex = 27;
+            this.삭제하기.Text = "삭제하기";
+            this.삭제하기.UseVisualStyleBackColor = true;
+            // 
             // 영화관리
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(494, 360);
+            this.ClientSize = new System.Drawing.Size(680, 599);
+            this.Controls.Add(this.삭제하기);
+            this.Controls.Add(this.수정하기);
+            this.Controls.Add(this.상영영화관리);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.테스트용_Label);
             this.Controls.Add(this.예고편urlTxt);
             this.Controls.Add(this.감독명txt);
@@ -193,6 +245,7 @@
             this.Name = "영화관리";
             this.Text = "영화관리";
             ((System.ComponentModel.ISupportInitialize)(this.영화포스터)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -214,5 +267,9 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label 테스트용_Label;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button 상영영화관리;
+        private System.Windows.Forms.Button 수정하기;
+        private System.Windows.Forms.Button 삭제하기;
     }
 }
