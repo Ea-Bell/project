@@ -76,6 +76,9 @@
     <Compile Include="회원가입.Designer.cs">
       <DependentUpon>회원가입.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="그림배치.resx">
+      <DependentUpon>그림배치.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="로그인.resx">
       <DependentUpon>로그인.cs</DependentUpon>
     </EmbeddedResource>

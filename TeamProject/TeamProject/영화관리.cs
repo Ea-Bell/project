@@ -93,6 +93,11 @@ namespace TeamProject
 
         }
 
+        private void 상영영화관리_Click(object sender, EventArgs e)
+        {
+            그림배치 그림배치 = new 그림배치();
+            그림배치.ShowDialog();
+        }
     }
 }
 

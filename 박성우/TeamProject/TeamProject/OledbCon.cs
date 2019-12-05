@@ -8,10 +8,6 @@ namespace TeamProject
 {
     public class OledbCon
     {
-    public void insert (String[] memverMv)
-    {
 
-    }
-   }
 
 }
