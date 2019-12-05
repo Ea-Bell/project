@@ -12,6 +12,13 @@ namespace TeamProject
     //디비 접속합시다!
     public class 영화관리DB
     {
+        OracleDataAdapter DBAdapter;
+        DataSet DS;
+        OracleCommandBuilder myCommandBuilder;
+        DataTable mTabel;
+
+
+
         private  static 영화관리DB 디비관리;
         private  string conn = null;
 
@@ -24,10 +31,44 @@ namespace TeamProject
             }
             return 디비관리;
         }
+        private void DB_Open()
+        {
+            try
+            {
+                string connectionString = "User Id=LPK; Password=1234; Data Source=(DESCRIPTION =(ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.142.16)(PORT = 1521))(CONNECT_DATA = (SERVER = DEDICATED)(SERVICE_NAME = xe)) ); ";
+                string commandString = "select * from 회원";
+                DBAdapter = new OracleDataAdapter(commandString, connectionString);
+                myCommandBuilder = new OracleCommandBuilder(DBAdapter);
+                DS = new DataSet();
+            }
+            catch (DataException DE)
+            {
+             
+                Console.WriteLine(DE.StackTrace);
+                DBAdapter.Fill(DS, "영화");
+            }
 
+        }
         //4개 만들기. 어떻게? 언제나 디비를 항상 연결해서 쓰기. 잘 모르면 배껴쓰셈. 받아오는건 어떻게? 배열로?아 요기서 받지말고 함수(get set)으로 불러오자!
         public void 검색() { }
-        public void 추가() { }
+        public void 추가(String [] 데이터)
+        {
+            DB_Open();
+            try
+            {
+                DS.Clear();
+
+            }
+            catch(Exception ex)
+            {
+
+            }
+            finally
+            {
+
+            }
+
+        }
         public void 삭제() { }
         public void 수정() { }
     }
