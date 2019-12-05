@@ -53,7 +53,7 @@ namespace TeamProject
 
         private void LoginForm_Button_Login_Click(object sender, EventArgs e)
         {
-            // Tstingasdfasdfasdddd
+            // Tstingasdfasdfasddddasdfddd
             //아이디 체킹후 로그인하기.
            
 
