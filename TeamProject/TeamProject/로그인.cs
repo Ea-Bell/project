@@ -40,6 +40,7 @@ namespace TeamProject
 
         private void LoginForm_Button_Login_Click(object sender, EventArgs e)
         {
+
             //string commandstring = "select Id from 회원가입 where Id = Id";
             if (LogInForm_Text_ID.Text == "")
             {
@@ -66,6 +67,10 @@ namespace TeamProject
                 {
                     if (dr.ToString() == LogInForm_Text_ID.Text)
                         MessageBox.Show("로그인 성공!");
+
+            // Tstingasdfasdfasddddasdfddd
+            //아이디 체킹후 로그인하기.
+           
 
                     MessageBox.Show(LogInForm_Text_ID.Text + " 님 환영합니다.", "로그인 성공", MessageBoxButtons.OK);
                     LogInForm_Text_ID.Text = "";

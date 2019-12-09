@@ -100,16 +100,17 @@ namespace TeamProject
             그림배치.ShowDialog();
         }
 
-          // 영화관리DB 영화 = 영화관리DB.getInstance();
-           // 영화.추가(데이터넘기기);
-             private void ClearTextBoxes()
-        {
-            영화코드txt.Clear();
-            영화명txt.Clear();
-            감독명txt.Clear();
-            예고편urlTxt.Clear();
-        }
+            //영화관리DB 영화 = 영화관리DB.getInstance();
+            //영화.추가(데이터넘기기);
+            }
+ //private void ClearTextBoxes()
+ //   {
+ //           영화코드txt.Clear();
+ //           영화명txt.Clear();
+ //           감독명txt.Clear();
+ //           예고편urlTxt.Clear();
+ //   }
+
     }
    
-}
 
