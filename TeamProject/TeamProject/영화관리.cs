@@ -91,7 +91,7 @@ namespace TeamProject
             //asdfasdfasdfasdfasdf
             //영화관리DB에 데이터를 넘길때 데이터들을 set, get시키자. 
 
-<<<<<<< HEAD
+
         }
 
         private void 상영영화관리_Click(object sender, EventArgs e)
@@ -99,18 +99,16 @@ namespace TeamProject
             그림배치 그림배치 = new 그림배치();
             그림배치.ShowDialog();
         }
-=======
-            영화관리DB 영화 = 영화관리DB.getInstance();
-            영화.추가(데이터넘기기);
-            }
- private void ClearTextBoxes()
-    {
+
+          // 영화관리DB 영화 = 영화관리DB.getInstance();
+           // 영화.추가(데이터넘기기);
+             private void ClearTextBoxes()
+        {
             영화코드txt.Clear();
             영화명txt.Clear();
             감독명txt.Clear();
             예고편urlTxt.Clear();
-    }
->>>>>>> dc3f6c1480909823adadf6be1750752d2a8b5bcf
+        }
     }
    
 }
