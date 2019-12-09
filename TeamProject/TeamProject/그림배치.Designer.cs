@@ -44,49 +44,55 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(50, 123);
+            this.pictureBox1.Location = new System.Drawing.Point(44, 98);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(183, 173);
+            this.pictureBox1.Size = new System.Drawing.Size(160, 138);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(273, 123);
+            this.pictureBox2.Location = new System.Drawing.Point(239, 98);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(183, 173);
+            this.pictureBox2.Size = new System.Drawing.Size(160, 138);
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Location = new System.Drawing.Point(505, 123);
+            this.pictureBox3.Location = new System.Drawing.Point(442, 98);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(183, 173);
+            this.pictureBox3.Size = new System.Drawing.Size(160, 138);
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Location = new System.Drawing.Point(735, 123);
+            this.pictureBox4.Location = new System.Drawing.Point(643, 98);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(183, 173);
+            this.pictureBox4.Size = new System.Drawing.Size(160, 138);
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Location = new System.Drawing.Point(966, 123);
+            this.pictureBox5.Location = new System.Drawing.Point(845, 98);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(183, 173);
+            this.pictureBox5.Size = new System.Drawing.Size(160, 138);
             this.pictureBox5.TabIndex = 4;
             this.pictureBox5.TabStop = false;
             // 
             // 수정하기
             // 
-            this.수정하기.Location = new System.Drawing.Point(401, 333);
+            this.수정하기.Location = new System.Drawing.Point(273, 280);
+            this.수정하기.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.수정하기.Name = "수정하기";
-            this.수정하기.Size = new System.Drawing.Size(75, 23);
+            this.수정하기.Size = new System.Drawing.Size(66, 18);
             this.수정하기.TabIndex = 5;
             this.수정하기.Text = "수정하기";
             this.수정하기.UseVisualStyleBackColor = true;
@@ -96,15 +102,17 @@
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1183, 24);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(1005, 24);
             this.menuStrip1.TabIndex = 6;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // 그림배치
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1183, 405);
+            this.AutoScroll = true;
+            this.ClientSize = new System.Drawing.Size(608, 324);
             this.Controls.Add(this.수정하기);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
@@ -113,6 +121,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "그림배치";
             this.Text = "그림배치";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
