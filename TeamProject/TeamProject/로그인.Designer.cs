@@ -33,7 +33,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.LoginForm_Button_Account = new System.Windows.Forms.Button();
-            this.LoginForm_Button_Cancel = new System.Windows.Forms.Button();
             this.LoginForm_Button_Login = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -41,71 +40,66 @@
             // 
             // LogInForm_Text_ID
             // 
-            this.LogInForm_Text_ID.Location = new System.Drawing.Point(178, 117);
+            this.LogInForm_Text_ID.Location = new System.Drawing.Point(156, 94);
+            this.LogInForm_Text_ID.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LogInForm_Text_ID.Name = "LogInForm_Text_ID";
-            this.LogInForm_Text_ID.Size = new System.Drawing.Size(156, 25);
+            this.LogInForm_Text_ID.Size = new System.Drawing.Size(137, 21);
             this.LogInForm_Text_ID.TabIndex = 0;
             // 
             // LogInForm_Text_Pw
             // 
-            this.LogInForm_Text_Pw.Location = new System.Drawing.Point(178, 164);
+            this.LogInForm_Text_Pw.Location = new System.Drawing.Point(156, 131);
+            this.LogInForm_Text_Pw.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LogInForm_Text_Pw.Name = "LogInForm_Text_Pw";
-            this.LogInForm_Text_Pw.Size = new System.Drawing.Size(156, 25);
-            this.LogInForm_Text_Pw.TabIndex = 0;
+            this.LogInForm_Text_Pw.Size = new System.Drawing.Size(137, 21);
+            this.LogInForm_Text_Pw.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(106, 117);
+            this.label1.Location = new System.Drawing.Point(93, 94);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(52, 15);
+            this.label1.Size = new System.Drawing.Size(41, 12);
             this.label1.TabIndex = 1;
             this.label1.Text = "아이디";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(91, 174);
+            this.label2.Location = new System.Drawing.Point(80, 139);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(67, 15);
+            this.label2.Size = new System.Drawing.Size(53, 12);
             this.label2.TabIndex = 1;
             this.label2.Text = "비밀번호";
             // 
             // LoginForm_Button_Account
             // 
-            this.LoginForm_Button_Account.Location = new System.Drawing.Point(288, 238);
+            this.LoginForm_Button_Account.Location = new System.Drawing.Point(234, 185);
+            this.LoginForm_Button_Account.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LoginForm_Button_Account.Name = "LoginForm_Button_Account";
-            this.LoginForm_Button_Account.Size = new System.Drawing.Size(75, 23);
-            this.LoginForm_Button_Account.TabIndex = 2;
+            this.LoginForm_Button_Account.Size = new System.Drawing.Size(69, 29);
+            this.LoginForm_Button_Account.TabIndex = 5;
             this.LoginForm_Button_Account.Text = "가입하기";
             this.LoginForm_Button_Account.UseVisualStyleBackColor = true;
             this.LoginForm_Button_Account.Click += new System.EventHandler(this.Submit_Button_Click);
             // 
-            // LoginForm_Button_Cancel
-            // 
-            this.LoginForm_Button_Cancel.Location = new System.Drawing.Point(184, 238);
-            this.LoginForm_Button_Cancel.Name = "LoginForm_Button_Cancel";
-            this.LoginForm_Button_Cancel.Size = new System.Drawing.Size(75, 23);
-            this.LoginForm_Button_Cancel.TabIndex = 3;
-            this.LoginForm_Button_Cancel.Text = "취소하기";
-            this.LoginForm_Button_Cancel.UseVisualStyleBackColor = true;
-            this.LoginForm_Button_Cancel.Click += new System.EventHandler(this.LoginForm_Button_Cancel_Click);
-            // 
             // LoginForm_Button_Login
             // 
-            this.LoginForm_Button_Login.Location = new System.Drawing.Point(100, 238);
+            this.LoginForm_Button_Login.Location = new System.Drawing.Point(149, 185);
+            this.LoginForm_Button_Login.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LoginForm_Button_Login.Name = "LoginForm_Button_Login";
-            this.LoginForm_Button_Login.Size = new System.Drawing.Size(65, 23);
-            this.LoginForm_Button_Login.TabIndex = 4;
+            this.LoginForm_Button_Login.Size = new System.Drawing.Size(69, 29);
+            this.LoginForm_Button_Login.TabIndex = 3;
             this.LoginForm_Button_Login.Text = "로그인";
             this.LoginForm_Button_Login.UseVisualStyleBackColor = true;
             this.LoginForm_Button_Login.Click += new System.EventHandler(this.LoginForm_Button_Login_Click);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(321, 320);
+            this.button1.Location = new System.Drawing.Point(281, 256);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(169, 23);
+            this.button1.Size = new System.Drawing.Size(148, 18);
             this.button1.TabIndex = 5;
             this.button1.Text = "테스트용영화관리";
             this.button1.UseVisualStyleBackColor = true;
@@ -113,9 +107,10 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(44, 320);
+            this.button2.Location = new System.Drawing.Point(38, 256);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(114, 23);
+            this.button2.Size = new System.Drawing.Size(100, 18);
             this.button2.TabIndex = 6;
             this.button2.Text = "권소진폼으로";
             this.button2.UseVisualStyleBackColor = true;
@@ -123,19 +118,17 @@
             // 
             // LogInForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(502, 355);
+            this.ClientSize = new System.Drawing.Size(439, 284);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.LoginForm_Button_Login);
-            this.Controls.Add(this.LoginForm_Button_Cancel);
             this.Controls.Add(this.LoginForm_Button_Account);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.LogInForm_Text_Pw);
             this.Controls.Add(this.LogInForm_Text_ID);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "LogInForm";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -150,7 +143,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button LoginForm_Button_Account;
-        private System.Windows.Forms.Button LoginForm_Button_Cancel;
         private System.Windows.Forms.Button LoginForm_Button_Login;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
