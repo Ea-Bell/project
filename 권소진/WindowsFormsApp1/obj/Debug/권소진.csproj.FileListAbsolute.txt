@@ -9,3 +9,14 @@ C:\Users\user\Documents\GitHub\project\권소진\WindowsFormsApp1\obj\Debug\권�
 C:\Users\user\Documents\GitHub\project\권소진\WindowsFormsApp1\obj\Debug\권소진.csproj.CoreCompileInputs.cache
 C:\Users\user\Documents\GitHub\project\권소진\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\user\Documents\GitHub\project\권소진\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\user\Documents\GitHub\project3\project\권소진\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\user\Documents\GitHub\project3\project\권소진\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\user\Documents\GitHub\project3\project\권소진\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\user\Documents\GitHub\project3\project\권소진\WindowsFormsApp1\obj\Debug\권소진.csprojAssemblyReference.cache
+C:\Users\user\Documents\GitHub\project3\project\권소진\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.시간선택.resources
+C:\Users\user\Documents\GitHub\project3\project\권소진\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.예매하기.resources
+C:\Users\user\Documents\GitHub\project3\project\권소진\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\user\Documents\GitHub\project3\project\권소진\WindowsFormsApp1\obj\Debug\권소진.csproj.GenerateResource.cache
+C:\Users\user\Documents\GitHub\project3\project\권소진\WindowsFormsApp1\obj\Debug\권소진.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\project3\project\권소진\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\user\Documents\GitHub\project3\project\권소진\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
