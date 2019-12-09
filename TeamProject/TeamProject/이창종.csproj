@@ -70,6 +70,12 @@
       <DependentUpon>영화관리.cs</DependentUpon>
     </Compile>
     <Compile Include="파일열기.cs" />
+    <Compile Include="홈페이지.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="홈페이지.Designer.cs">
+      <DependentUpon>홈페이지.cs</DependentUpon>
+    </Compile>
     <Compile Include="회원가입.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,6 +99,9 @@
     </Compile>
     <EmbeddedResource Include="영화관리.resx">
       <DependentUpon>영화관리.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="홈페이지.resx">
+      <DependentUpon>홈페이지.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="회원가입.resx">
       <DependentUpon>회원가입.cs</DependentUpon>
