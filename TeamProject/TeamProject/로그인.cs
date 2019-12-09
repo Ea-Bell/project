@@ -59,6 +59,7 @@ namespace TeamProject
 
             예매하기 예매 = new 예매하기();
             예매.ShowDialog();
+            //asdfddddd
         }
 
 
