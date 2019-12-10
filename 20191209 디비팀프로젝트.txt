@@ -1,0 +1,79 @@
+System.DateTime.Now.ToString("yyyy-MM-dd");
+
+public partial class 시간선택 : Form
+    {
+        
+        //스플릿을 활용하여 예매내역의 좌석에  0, 1로 현재 가용 여부값을 배열로 받아온다.
+        
+        int currSeat;  //현재 상영관의 총 좌석 객수
+            //string text;
+                //string[] split_text;
+               // while (dr.Read())
+               // {                    
+                     // text+= dr["좌석"].ToString();
+               // }                    
+         // split_text  = text.split(',');
+
+
+
+
+
+
+            
+    //public void SeatSelect(String str) '0', '1', 
+    //{
+    //    if (currSeat == str)
+    //    {
+    //       button4.BackColor = Color.Purple;
+    //        button4.ForeColor = Color.Yellow;
+    //    }else
+
+    //        button4.BackColor = Color.Gray;
+    //        button4.ForeColor = Color.Black;
+    //    //}
+    //    //if (currSeat == str)
+    //    //{
+    //    //    button5.BackColor = Color.Purple;
+    //    //    button5.ForeColor = Color.Yellow;
+    //    //}
+    //    //else
+    //    //{
+    //    //    button5.BackColor = Color.Gray;
+    //    //    button5.ForeColor = Color.Black;
+    //   }
+
+    public void SeatSelect2(Button str)
+        {            
+            if (currSeat == 0)
+            {
+            str.BackColor = Color.Purple;
+            str.ForeColor = Color.Yellow;
+            }
+        }
+        public 시간선택()
+        {
+            InitializeComponent();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+
+        }
+        
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            if (currSeat == 0)
+            {
+                SeatSelect2(button4);
+            }
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            SeatSelect2(button5);
+        }
+    }
+
+    
+}
