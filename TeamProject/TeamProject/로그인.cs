@@ -24,18 +24,21 @@ namespace TeamProject
         {
             NewInfo newInfo = new NewInfo();
             newInfo.ShowDialog();
+            newInfo.Dispose();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             영화관리 파일 = new 영화관리();
             파일.ShowDialog();
+            파일.Dispose();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             예매하기 예매 = new 예매하기();
             예매.ShowDialog();
+            예매.Dispose();
         }
 
         private void LoginForm_Button_Login_Click(object sender, EventArgs e)
@@ -90,6 +93,13 @@ namespace TeamProject
                 conn.Close();
                 
             }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            홈페이지 hf = new 홈페이지();
+            hf.ShowDialog();
+            hf.Dispose();
         }
     }
 }
