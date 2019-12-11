@@ -29,97 +29,85 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(예매하기));
-            this.극한직업 = new System.Windows.Forms.PictureBox();
-            this.범죄도시 = new System.Windows.Forms.PictureBox();
-            this.라라랜드 = new System.Windows.Forms.PictureBox();
-            this.타짜 = new System.Windows.Forms.PictureBox();
-            this.청년경찰 = new System.Windows.Forms.PictureBox();
-            this.엑시트 = new System.Windows.Forms.PictureBox();
+            this.영화1 = new System.Windows.Forms.PictureBox();
+            this.영화2 = new System.Windows.Forms.PictureBox();
+            this.영화3 = new System.Windows.Forms.PictureBox();
+            this.영화4 = new System.Windows.Forms.PictureBox();
+            this.영화5 = new System.Windows.Forms.PictureBox();
+            this.영화6 = new System.Windows.Forms.PictureBox();
             this.극한btn = new System.Windows.Forms.Button();
             this.범죄btn = new System.Windows.Forms.Button();
             this.라라btn = new System.Windows.Forms.Button();
             this.타짜btn = new System.Windows.Forms.Button();
             this.청년btn = new System.Windows.Forms.Button();
             this.엑시btn = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.극한직업)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.범죄도시)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.라라랜드)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.타짜)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.청년경찰)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.엑시트)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.영화1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.영화2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.영화3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.영화4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.영화5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.영화6)).BeginInit();
             this.SuspendLayout();
             // 
-            // 극한직업
+            // 영화1
             // 
-            this.극한직업.Image = ((System.Drawing.Image)(resources.GetObject("극한직업.Image")));
-            this.극한직업.Location = new System.Drawing.Point(24, 26);
-            this.극한직업.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.극한직업.Name = "극한직업";
-            this.극한직업.Size = new System.Drawing.Size(239, 342);
-            this.극한직업.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.극한직업.TabIndex = 0;
-            this.극한직업.TabStop = false;
-            this.극한직업.Click += new System.EventHandler(this.극한직업_Click);
+            this.영화1.Location = new System.Drawing.Point(24, 26);
+            this.영화1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.영화1.Name = "영화1";
+            this.영화1.Size = new System.Drawing.Size(239, 342);
+            this.영화1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.영화1.TabIndex = 0;
+            this.영화1.TabStop = false;
             // 
-            // 범죄도시
+            // 영화2
             // 
-            this.범죄도시.Image = ((System.Drawing.Image)(resources.GetObject("범죄도시.Image")));
-            this.범죄도시.Location = new System.Drawing.Point(285, 26);
-            this.범죄도시.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.범죄도시.Name = "범죄도시";
-            this.범죄도시.Size = new System.Drawing.Size(239, 342);
-            this.범죄도시.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.범죄도시.TabIndex = 1;
-            this.범죄도시.TabStop = false;
-            this.범죄도시.Click += new System.EventHandler(this.범죄도시_Click);
+            this.영화2.Location = new System.Drawing.Point(285, 26);
+            this.영화2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.영화2.Name = "영화2";
+            this.영화2.Size = new System.Drawing.Size(239, 342);
+            this.영화2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.영화2.TabIndex = 1;
+            this.영화2.TabStop = false;
             // 
-            // 라라랜드
+            // 영화3
             // 
-            this.라라랜드.Image = ((System.Drawing.Image)(resources.GetObject("라라랜드.Image")));
-            this.라라랜드.Location = new System.Drawing.Point(544, 26);
-            this.라라랜드.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.라라랜드.Name = "라라랜드";
-            this.라라랜드.Size = new System.Drawing.Size(239, 342);
-            this.라라랜드.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.라라랜드.TabIndex = 2;
-            this.라라랜드.TabStop = false;
-            this.라라랜드.Click += new System.EventHandler(this.라라랜드_Click);
+            this.영화3.Location = new System.Drawing.Point(544, 26);
+            this.영화3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.영화3.Name = "영화3";
+            this.영화3.Size = new System.Drawing.Size(239, 342);
+            this.영화3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.영화3.TabIndex = 2;
+            this.영화3.TabStop = false;
             // 
-            // 타짜
+            // 영화4
             // 
-            this.타짜.Image = ((System.Drawing.Image)(resources.GetObject("타짜.Image")));
-            this.타짜.Location = new System.Drawing.Point(801, 26);
-            this.타짜.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.타짜.Name = "타짜";
-            this.타짜.Size = new System.Drawing.Size(239, 342);
-            this.타짜.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.타짜.TabIndex = 3;
-            this.타짜.TabStop = false;
-            this.타짜.Click += new System.EventHandler(this.타짜_Click);
+            this.영화4.Location = new System.Drawing.Point(801, 26);
+            this.영화4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.영화4.Name = "영화4";
+            this.영화4.Size = new System.Drawing.Size(239, 342);
+            this.영화4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.영화4.TabIndex = 3;
+            this.영화4.TabStop = false;
             // 
-            // 청년경찰
+            // 영화5
             // 
-            this.청년경찰.Image = ((System.Drawing.Image)(resources.GetObject("청년경찰.Image")));
-            this.청년경찰.Location = new System.Drawing.Point(1069, 35);
-            this.청년경찰.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.청년경찰.Name = "청년경찰";
-            this.청년경찰.Size = new System.Drawing.Size(239, 342);
-            this.청년경찰.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.청년경찰.TabIndex = 4;
-            this.청년경찰.TabStop = false;
-            this.청년경찰.Click += new System.EventHandler(this.청년경찰_Click);
+            this.영화5.Location = new System.Drawing.Point(1058, 27);
+            this.영화5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.영화5.Name = "영화5";
+            this.영화5.Size = new System.Drawing.Size(239, 342);
+            this.영화5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.영화5.TabIndex = 4;
+            this.영화5.TabStop = false;
             // 
-            // 엑시트
+            // 영화6
             // 
-            this.엑시트.Image = ((System.Drawing.Image)(resources.GetObject("엑시트.Image")));
-            this.엑시트.Location = new System.Drawing.Point(1314, 26);
-            this.엑시트.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.엑시트.Name = "엑시트";
-            this.엑시트.Size = new System.Drawing.Size(239, 342);
-            this.엑시트.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.엑시트.TabIndex = 5;
-            this.엑시트.TabStop = false;
-            this.엑시트.Click += new System.EventHandler(this.엑시트_Click);
+            this.영화6.Location = new System.Drawing.Point(1314, 26);
+            this.영화6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.영화6.Name = "영화6";
+            this.영화6.Size = new System.Drawing.Size(239, 342);
+            this.영화6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.영화6.TabIndex = 5;
+            this.영화6.TabStop = false;
             // 
             // 극한btn
             // 
@@ -134,7 +122,6 @@
             this.극한btn.TabIndex = 6;
             this.극한btn.Text = "예매하기";
             this.극한btn.UseVisualStyleBackColor = false;
-            this.극한btn.Click += new System.EventHandler(this.극한btn_Click);
             // 
             // 범죄btn
             // 
@@ -149,7 +136,6 @@
             this.범죄btn.TabIndex = 7;
             this.범죄btn.Text = "예매하기";
             this.범죄btn.UseVisualStyleBackColor = false;
-            this.범죄btn.Click += new System.EventHandler(this.범죄btn_Click);
             // 
             // 라라btn
             // 
@@ -164,7 +150,6 @@
             this.라라btn.TabIndex = 8;
             this.라라btn.Text = "예매하기";
             this.라라btn.UseVisualStyleBackColor = false;
-            this.라라btn.Click += new System.EventHandler(this.라라btn_Click);
             // 
             // 타짜btn
             // 
@@ -179,7 +164,6 @@
             this.타짜btn.TabIndex = 9;
             this.타짜btn.Text = "예매하기";
             this.타짜btn.UseVisualStyleBackColor = false;
-            this.타짜btn.Click += new System.EventHandler(this.타짜btn_Click);
             // 
             // 청년btn
             // 
@@ -194,7 +178,6 @@
             this.청년btn.TabIndex = 10;
             this.청년btn.Text = "예매하기";
             this.청년btn.UseVisualStyleBackColor = false;
-            this.청년btn.Click += new System.EventHandler(this.청년btn_Click);
             // 
             // 엑시btn
             // 
@@ -209,7 +192,6 @@
             this.엑시btn.TabIndex = 11;
             this.엑시btn.Text = "예매하기";
             this.엑시btn.UseVisualStyleBackColor = false;
-            this.엑시btn.Click += new System.EventHandler(this.엑시btn_Click);
             // 
             // 예매하기
             // 
@@ -224,33 +206,33 @@
             this.Controls.Add(this.라라btn);
             this.Controls.Add(this.범죄btn);
             this.Controls.Add(this.극한btn);
-            this.Controls.Add(this.엑시트);
-            this.Controls.Add(this.청년경찰);
-            this.Controls.Add(this.타짜);
-            this.Controls.Add(this.라라랜드);
-            this.Controls.Add(this.범죄도시);
-            this.Controls.Add(this.극한직업);
+            this.Controls.Add(this.영화6);
+            this.Controls.Add(this.영화5);
+            this.Controls.Add(this.영화4);
+            this.Controls.Add(this.영화3);
+            this.Controls.Add(this.영화2);
+            this.Controls.Add(this.영화1);
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "예매하기";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.극한직업)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.범죄도시)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.라라랜드)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.타짜)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.청년경찰)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.엑시트)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.영화1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.영화2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.영화3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.영화4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.영화5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.영화6)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.PictureBox 극한직업;
-        private System.Windows.Forms.PictureBox 범죄도시;
-        private System.Windows.Forms.PictureBox 라라랜드;
-        private System.Windows.Forms.PictureBox 타짜;
-        private System.Windows.Forms.PictureBox 청년경찰;
-        private System.Windows.Forms.PictureBox 엑시트;
+        private System.Windows.Forms.PictureBox 영화1;
+        private System.Windows.Forms.PictureBox 영화2;
+        private System.Windows.Forms.PictureBox 영화3;
+        private System.Windows.Forms.PictureBox 영화4;
+        private System.Windows.Forms.PictureBox 영화5;
+        private System.Windows.Forms.PictureBox 영화6;
         private System.Windows.Forms.Button 극한btn;
         private System.Windows.Forms.Button 범죄btn;
         private System.Windows.Forms.Button 라라btn;
