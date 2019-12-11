@@ -15,12 +15,12 @@ namespace TeamProject
         OracleDataAdapter DBAdapter;
         DataSet DS;
         OracleCommandBuilder myCommandBuilder;
-        DataTable mTabel;
+      //  DataTable mTabel;
 
 
 
         private  static 영화관리DB 디비관리;
-        private  string conn = null;
+      //  private  string conn = null;
 
         //싱글톤 영화관리 디비 불러올떄 getInstance()로 불러오면된다.
         public static 영화관리DB getInstance()
@@ -49,6 +49,7 @@ namespace TeamProject
             }
 
         }
+
         //4개 만들기. 어떻게? 언제나 디비를 항상 연결해서 쓰기. 잘 모르면 배껴쓰셈. 받아오는건 어떻게? 배열로?아 요기서 받지말고 함수(get set)으로 불러오자!
         public void 검색() { }
         public void 추가(String [] 데이터)
@@ -61,7 +62,7 @@ namespace TeamProject
             }
             catch(Exception ex)
             {
-
+                Console.WriteLine(ex.Message);
             }
             finally
             {

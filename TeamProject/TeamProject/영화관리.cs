@@ -7,19 +7,73 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Oracle.DataAccess.Client;
+
+
+
 //이미지를 넣었다면 이미지가 항상 같은 경로가 있는지 확인할것. 없으면 없다는 그림을 보여줄것.(내 임의의 그림을 넣어서 확인하자)
 namespace TeamProject
 {
     public partial class 영화관리 : Form
     {
-        private String[] 데이터넘기기= new string[5];
+        private String[] 데이터넘기기= new string[6];
         private string image_file = string.Empty;
         private string 경로 = "";
-      
+
+        OracleConnection odpConn = new OracleConnection();
+
+
         public 영화관리()
         {
             InitializeComponent();
         }
+
+        private void showDataGridview()
+        {
+            try
+            {
+                odpConn.ConnectionString = "User Id=LPK; Password=1234; Data Source=(DESCRIPTION =(ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.142.16)(PORT = 1521))(CONNECT_DATA = (SERVER = DEDICATED)(SERVICE_NAME = xe)) ); ";
+                odpConn.Open();
+
+                OracleDataAdapter oda = new OracleDataAdapter();
+                oda.SelectCommand = new OracleCommand("select * from 영화", odpConn);
+
+                DataTable dt = new DataTable();
+                oda.Fill(dt);
+                odpConn.Close();
+
+                DBGrid.DataSource = dt;
+
+                DBGrid.AutoResizeColumns();
+                DBGrid.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+
+                DBGrid.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+                DBGrid.AllowUserToAddRows = false;
+                odpConn.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("에러 발생: " + ex.ToString());
+            }
+        }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            //URL = Convert.ToString(DBGrid.SelectedCells[3].Value);
+            //Form2 form2 = new Form2(this);
+            //form2.ShowDialog();
+            //form2.Dispose();
+        }
+
+
+
+
+
+
+
+
+
+
 
         private void 그림찾기btn_Click(object sender, EventArgs e)
         {            
@@ -44,6 +98,12 @@ namespace TeamProject
             //버튼 소리낼때 딜레이 걸어서 버튼 종료 시켜야한다.
             Dispose();
         }
+
+
+
+
+
+
 
         private void 저장_Click(object sender, EventArgs e)
         {
@@ -71,7 +131,7 @@ namespace TeamProject
             else if (감독명txt.Text == "")
             {
                 MessageBox.Show("감독명를 넣지 않으셨습니다.");
-            }else if (예고편urlTxt.Text == "")
+            }else if (예고편URLtxt.Text == "")
             {
                 //현재 메시지 박스를 열고서 행하는 행동.
                 DialogResult result1 =MessageBox.Show("정말로 예고편URL을 넣지 않으시겠습니까?", "URL입력확인란", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
@@ -83,15 +143,35 @@ namespace TeamProject
             데이터넘기기[0] = 영화코드txt.Text;
             데이터넘기기[1] = 영화명txt.Text;
             데이터넘기기[2] = 감독명txt.Text;
-            데이터넘기기[3] = 예고편urlTxt.Text;
+            데이터넘기기[3] = 예고편URLtxt.Text;
             데이터넘기기[4] = 경로;
+            데이터넘기기[5] = 가격txt.Text;
             //데이터넘기기{영화코드, 영화명, 감독명, 예고편URL, 포스터 사진 경로}
             테스트용_Label.Text = 데이터넘기기[0] +" "+ 데이터넘기기[1] + " " + 데이터넘기기[2] + " " + 데이터넘기기[3] + " " + 데이터넘기기[4];
+
+
+
+
+
+
+
+
+            OracleConnection conn = new OracleConnection("User Id=LPK; Password=1234; Data Source=(DESCRIPTION =(ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.142.16)(PORT = 1521))(CONNECT_DATA = (SERVER = DEDICATED)(SERVICE_NAME = xe)) ); ");
+            conn.Open();
+            OracleCommand cmd = new OracleCommand();
+            cmd.Connection = conn;
+            cmd.CommandText = "INSERT INTO 영화 (영화코드, 영화명, 감독명, 예고편URL, 그림경로, 가격) VALUES ('" + 데이터넘기기[0] +"', '"+ 데이터넘기기[1]+ "', '" + 데이터넘기기[2] + "', '" + 데이터넘기기[3] + "', '" + 데이터넘기기[4] + "', '" + 데이터넘기기[5] + "')";
+            cmd.ExecuteNonQuery();
+            conn.Close();
+
+
+
+
 
             //asdfasdfasdfasdfasdf
             //영화관리DB에 데이터를 넘길때 데이터들을 set, get시키자. 
 
-
+            showDataGridview();
         }
 
         private void 상영영화관리_Click(object sender, EventArgs e)
@@ -101,9 +181,30 @@ namespace TeamProject
             그림배치.Dispose();
         }
 
-            //영화관리DB 영화 = 영화관리DB.getInstance();
-            //영화.추가(데이터넘기기);
-            }
+        private void 영화관리_Load(object sender, EventArgs e)
+        {
+            showDataGridview();
+        }
+
+        private void DBGrid_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            영화코드txt.Text = Convert.ToString(DBGrid.SelectedCells[0].Value);
+            영화명txt.Text = Convert.ToString(DBGrid.SelectedCells[1].Value);
+            감독명txt.Text = Convert.ToString(DBGrid.SelectedCells[2].Value);
+            예고편URLtxt.Text = Convert.ToString(DBGrid.SelectedCells[3].Value);
+            가격txt.Text = Convert.ToString(DBGrid.SelectedCells[5].Value);
+
+        }
+
+
+        private void 수정하기_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        //영화관리DB 영화 = 영화관리DB.getInstance();
+        //영화.추가(데이터넘기기);
+    }
  //private void ClearTextBoxes()
  //   {
  //           영화코드txt.Clear();
