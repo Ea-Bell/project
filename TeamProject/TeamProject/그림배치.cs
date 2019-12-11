@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApp1;
 
 namespace TeamProject
 {
@@ -16,5 +17,20 @@ namespace TeamProject
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            예매하기 예매 = new 예매하기();
+            예매.Show();
+          
+        }
+
+        private void 수정하기_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
+
     }
 }

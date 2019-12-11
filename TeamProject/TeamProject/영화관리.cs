@@ -98,6 +98,7 @@ namespace TeamProject
         {
             그림배치 그림배치 = new 그림배치();
             그림배치.ShowDialog();
+            그림배치.Dispose();
         }
 
             //영화관리DB 영화 = 영화관리DB.getInstance();

@@ -44,10 +44,11 @@
             // 
             this.webBrowser1.AllowNavigation = false;
             this.webBrowser1.IsWebBrowserContextMenuEnabled = false;
-            this.webBrowser1.Location = new System.Drawing.Point(-16, -105);
-            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
+            this.webBrowser1.Location = new System.Drawing.Point(-14, -84);
+            this.webBrowser1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.webBrowser1.MinimumSize = new System.Drawing.Size(18, 16);
             this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.Size = new System.Drawing.Size(994, 665);
+            this.webBrowser1.Size = new System.Drawing.Size(870, 532);
             this.webBrowser1.TabIndex = 0;
             this.webBrowser1.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.webBrowser1_DocumentCompleted);
             // 
@@ -64,7 +65,7 @@
             this.브라우저주소링크});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(703, 27);
+            this.toolStrip1.Size = new System.Drawing.Size(615, 25);
             this.toolStrip1.TabIndex = 1;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -114,22 +115,23 @@
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 27);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
             // 
             // 브라우저주소링크
             // 
             this.브라우저주소링크.Name = "브라우저주소링크";
-            this.브라우저주소링크.Size = new System.Drawing.Size(500, 27);
+            this.브라우저주소링크.Size = new System.Drawing.Size(438, 25);
             this.브라우저주소링크.KeyDown += new System.Windows.Forms.KeyEventHandler(this.브라우저주소링크_KeyDown);
             this.브라우저주소링크.Click += new System.EventHandler(this.브라우저주소링크_Click);
             // 
             // 홈페이지
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(703, 423);
+            this.ClientSize = new System.Drawing.Size(615, 338);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.webBrowser1);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "홈페이지";

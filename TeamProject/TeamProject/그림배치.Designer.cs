@@ -35,6 +35,7 @@
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.수정하기 = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -96,6 +97,7 @@
             this.수정하기.TabIndex = 5;
             this.수정하기.Text = "수정하기";
             this.수정하기.UseVisualStyleBackColor = true;
+            this.수정하기.Click += new System.EventHandler(this.수정하기_Click);
             // 
             // menuStrip1
             // 
@@ -107,12 +109,23 @@
             this.menuStrip1.TabIndex = 6;
             this.menuStrip1.Text = "menuStrip1";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(432, 273);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(89, 23);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "예매하기화면";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // 그림배치
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(608, 324);
+            this.ClientSize = new System.Drawing.Size(607, 337);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.수정하기);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
@@ -143,5 +156,6 @@
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.Button 수정하기;
         private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.Button button1;
     }
 }
