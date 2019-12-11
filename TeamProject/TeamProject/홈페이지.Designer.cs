@@ -31,12 +31,12 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(홈페이지));
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.브라우저주소링크 = new System.Windows.Forms.ToolStripTextBox();
             this.뒤로가기 = new System.Windows.Forms.ToolStripButton();
             this.앞으로가기 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.브라우저주소링크 = new System.Windows.Forms.ToolStripTextBox();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -67,13 +67,6 @@
             this.toolStrip1.Size = new System.Drawing.Size(703, 27);
             this.toolStrip1.TabIndex = 1;
             this.toolStrip1.Text = "toolStrip1";
-            // 
-            // 브라우저주소링크
-            // 
-            this.브라우저주소링크.Name = "브라우저주소링크";
-            this.브라우저주소링크.Size = new System.Drawing.Size(500, 27);
-            this.브라우저주소링크.KeyDown += new System.Windows.Forms.KeyEventHandler(this.브라우저주소링크_KeyDown);
-            this.브라우저주소링크.Click += new System.EventHandler(this.브라우저주소링크_Click);
             // 
             // 뒤로가기
             // 
@@ -123,11 +116,17 @@
             this.toolStripSeparator1.Name = "toolStripSeparator1";
             this.toolStripSeparator1.Size = new System.Drawing.Size(6, 27);
             // 
+            // 브라우저주소링크
+            // 
+            this.브라우저주소링크.Name = "브라우저주소링크";
+            this.브라우저주소링크.Size = new System.Drawing.Size(500, 27);
+            this.브라우저주소링크.KeyDown += new System.Windows.Forms.KeyEventHandler(this.브라우저주소링크_KeyDown);
+            this.브라우저주소링크.Click += new System.EventHandler(this.브라우저주소링크_Click);
+            // 
             // 홈페이지
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(703, 423);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.webBrowser1);
