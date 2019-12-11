@@ -12,9 +12,11 @@ namespace WindowsFormsApp1
 {
     public partial class 예매하기 : Form
     {
-        public 예매하기()
+        string userid = "";
+        public 예매하기(string id)
         {
             InitializeComponent();
+            userid = id;
         }
          //포스터 클릭하면 예고편 나오기
         private void 극한직업_Click(object sender, EventArgs e)
@@ -50,7 +52,10 @@ namespace WindowsFormsApp1
         //해당 영화의 시간선택 폼으로 넘어감
         private void 극한btn_Click(object sender, EventArgs e)
         {
+            시간선택 시간 = new 시간선택(userid);
+            시간.ShowDialog();
 
+            시간.Dispose();
         }
 
         private void 범죄btn_Click(object sender, EventArgs e)

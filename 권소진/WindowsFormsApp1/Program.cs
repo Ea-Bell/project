@@ -16,7 +16,7 @@ namespace WindowsFormsApp1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new 예매하기());
+            Application.Run(new 예매하기("임시ID"));
         }
     }
 }
