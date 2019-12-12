@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(시간선택));
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -80,7 +79,7 @@
             this.button64 = new System.Windows.Forms.Button();
             this.button65 = new System.Windows.Forms.Button();
             this.button66 = new System.Windows.Forms.Button();
-            this.button67 = new System.Windows.Forms.Button();
+            this.좌석10 = new System.Windows.Forms.Button();
             this.button68 = new System.Windows.Forms.Button();
             this.button69 = new System.Windows.Forms.Button();
             this.button70 = new System.Windows.Forms.Button();
@@ -95,54 +94,48 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.btn_Commit = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.Snow;
-            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button1.Location = new System.Drawing.Point(17, 27);
+            this.button1.Location = new System.Drawing.Point(17, 39);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(95, 83);
+            this.button1.Size = new System.Drawing.Size(74, 68);
             this.button1.TabIndex = 0;
             this.button1.Text = "1관     12:00 ~ 14:03";
             this.button1.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button1.UseVisualStyleBackColor = false;
+            this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.Snow;
-            this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button2.Location = new System.Drawing.Point(17, 130);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(95, 80);
+            this.button2.Size = new System.Drawing.Size(74, 66);
             this.button2.TabIndex = 1;
-            this.button2.Text = "1관     14:20 ~ 16:23";
+            this.button2.Text = "1관     12:00 ~ 14:03";
             this.button2.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button2.UseVisualStyleBackColor = false;
+            this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.Snow;
-            this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button3.Location = new System.Drawing.Point(17, 229);
+            this.button3.Location = new System.Drawing.Point(17, 218);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(95, 77);
+            this.button3.Size = new System.Drawing.Size(74, 68);
             this.button3.TabIndex = 2;
-            this.button3.Text = "1관     16:30 ~ 18:33";
+            this.button3.Text = "1관     12:00 ~ 14:03";
             this.button3.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button3.UseVisualStyleBackColor = false;
+            this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // 좌석1
@@ -634,15 +627,16 @@
             this.button66.Text = "c02";
             this.button66.UseVisualStyleBackColor = false;
             // 
-            // button67
+            // 좌석10
             // 
-            this.button67.BackColor = System.Drawing.SystemColors.Control;
-            this.button67.Location = new System.Drawing.Point(72, 172);
-            this.button67.Name = "button67";
-            this.button67.Size = new System.Drawing.Size(33, 24);
-            this.button67.TabIndex = 63;
-            this.button67.Text = "B02";
-            this.button67.UseVisualStyleBackColor = false;
+            this.좌석10.BackColor = System.Drawing.SystemColors.Control;
+            this.좌석10.Location = new System.Drawing.Point(72, 172);
+            this.좌석10.Name = "좌석10";
+            this.좌석10.Size = new System.Drawing.Size(33, 24);
+            this.좌석10.TabIndex = 63;
+            this.좌석10.Text = "B02";
+            this.좌석10.UseVisualStyleBackColor = false;
+            this.좌석10.Click += new System.EventHandler(this.좌석10_Click);
             // 
             // button68
             // 
@@ -756,7 +750,6 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.White;
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.button3);
@@ -764,14 +757,13 @@
             this.groupBox1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.groupBox1.Location = new System.Drawing.Point(22, 25);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(132, 323);
+            this.groupBox1.Size = new System.Drawing.Size(132, 306);
             this.groupBox1.TabIndex = 78;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "시간선택";
             // 
             // groupBox2
             // 
-            this.groupBox2.BackColor = System.Drawing.Color.White;
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Controls.Add(this.좌석1);
             this.groupBox2.Controls.Add(this.좌석2);
@@ -801,7 +793,7 @@
             this.groupBox2.Controls.Add(this.button23);
             this.groupBox2.Controls.Add(this.button66);
             this.groupBox2.Controls.Add(this.button22);
-            this.groupBox2.Controls.Add(this.button67);
+            this.groupBox2.Controls.Add(this.좌석10);
             this.groupBox2.Controls.Add(this.button21);
             this.groupBox2.Controls.Add(this.button52);
             this.groupBox2.Controls.Add(this.button17);
@@ -849,12 +841,20 @@
             this.btn_Commit.UseVisualStyleBackColor = true;
             this.btn_Commit.Click += new System.EventHandler(this.btn_commit_Click);
             // 
+            // label2
+            // 
+            this.label2.Location = new System.Drawing.Point(22, 338);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(702, 38);
+            this.label2.TabIndex = 81;
+            this.label2.Text = "label2";
+            // 
             // 시간선택
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(870, 385);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.btn_Commit);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -919,7 +919,7 @@
         private System.Windows.Forms.Button button64;
         private System.Windows.Forms.Button button65;
         private System.Windows.Forms.Button button66;
-        private System.Windows.Forms.Button button67;
+        private System.Windows.Forms.Button 좌석10;
         private System.Windows.Forms.Button button68;
         private System.Windows.Forms.Button button69;
         private System.Windows.Forms.Button button70;
@@ -934,5 +934,6 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Button btn_Commit;
+        private System.Windows.Forms.Label label2;
     }
 }

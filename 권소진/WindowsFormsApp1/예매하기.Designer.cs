@@ -52,9 +52,10 @@
             // 극한직업
             // 
             this.극한직업.Image = ((System.Drawing.Image)(resources.GetObject("극한직업.Image")));
-            this.극한직업.Location = new System.Drawing.Point(21, 21);
+            this.극한직업.Location = new System.Drawing.Point(24, 26);
+            this.극한직업.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.극한직업.Name = "극한직업";
-            this.극한직업.Size = new System.Drawing.Size(209, 274);
+            this.극한직업.Size = new System.Drawing.Size(239, 342);
             this.극한직업.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.극한직업.TabIndex = 0;
             this.극한직업.TabStop = false;
@@ -63,9 +64,10 @@
             // 범죄도시
             // 
             this.범죄도시.Image = ((System.Drawing.Image)(resources.GetObject("범죄도시.Image")));
-            this.범죄도시.Location = new System.Drawing.Point(249, 21);
+            this.범죄도시.Location = new System.Drawing.Point(285, 26);
+            this.범죄도시.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.범죄도시.Name = "범죄도시";
-            this.범죄도시.Size = new System.Drawing.Size(209, 274);
+            this.범죄도시.Size = new System.Drawing.Size(239, 342);
             this.범죄도시.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.범죄도시.TabIndex = 1;
             this.범죄도시.TabStop = false;
@@ -74,9 +76,10 @@
             // 라라랜드
             // 
             this.라라랜드.Image = ((System.Drawing.Image)(resources.GetObject("라라랜드.Image")));
-            this.라라랜드.Location = new System.Drawing.Point(476, 21);
+            this.라라랜드.Location = new System.Drawing.Point(544, 26);
+            this.라라랜드.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.라라랜드.Name = "라라랜드";
-            this.라라랜드.Size = new System.Drawing.Size(209, 274);
+            this.라라랜드.Size = new System.Drawing.Size(239, 342);
             this.라라랜드.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.라라랜드.TabIndex = 2;
             this.라라랜드.TabStop = false;
@@ -85,9 +88,10 @@
             // 타짜
             // 
             this.타짜.Image = ((System.Drawing.Image)(resources.GetObject("타짜.Image")));
-            this.타짜.Location = new System.Drawing.Point(701, 21);
+            this.타짜.Location = new System.Drawing.Point(801, 26);
+            this.타짜.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.타짜.Name = "타짜";
-            this.타짜.Size = new System.Drawing.Size(209, 274);
+            this.타짜.Size = new System.Drawing.Size(239, 342);
             this.타짜.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.타짜.TabIndex = 3;
             this.타짜.TabStop = false;
@@ -96,9 +100,10 @@
             // 청년경찰
             // 
             this.청년경찰.Image = ((System.Drawing.Image)(resources.GetObject("청년경찰.Image")));
-            this.청년경찰.Location = new System.Drawing.Point(932, 21);
+            this.청년경찰.Location = new System.Drawing.Point(1069, 35);
+            this.청년경찰.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.청년경찰.Name = "청년경찰";
-            this.청년경찰.Size = new System.Drawing.Size(209, 274);
+            this.청년경찰.Size = new System.Drawing.Size(239, 342);
             this.청년경찰.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.청년경찰.TabIndex = 4;
             this.청년경찰.TabStop = false;
@@ -107,9 +112,10 @@
             // 엑시트
             // 
             this.엑시트.Image = ((System.Drawing.Image)(resources.GetObject("엑시트.Image")));
-            this.엑시트.Location = new System.Drawing.Point(1162, 21);
+            this.엑시트.Location = new System.Drawing.Point(1314, 26);
+            this.엑시트.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.엑시트.Name = "엑시트";
-            this.엑시트.Size = new System.Drawing.Size(209, 274);
+            this.엑시트.Size = new System.Drawing.Size(239, 342);
             this.엑시트.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.엑시트.TabIndex = 5;
             this.엑시트.TabStop = false;
@@ -121,9 +127,10 @@
             this.극한btn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.극한btn.Font = new System.Drawing.Font("굴림", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.극한btn.ForeColor = System.Drawing.Color.Blue;
-            this.극한btn.Location = new System.Drawing.Point(63, 320);
+            this.극한btn.Location = new System.Drawing.Point(72, 400);
+            this.극한btn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.극한btn.Name = "극한btn";
-            this.극한btn.Size = new System.Drawing.Size(105, 31);
+            this.극한btn.Size = new System.Drawing.Size(120, 39);
             this.극한btn.TabIndex = 6;
             this.극한btn.Text = "예매하기";
             this.극한btn.UseVisualStyleBackColor = false;
@@ -135,9 +142,10 @@
             this.범죄btn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.범죄btn.Font = new System.Drawing.Font("굴림", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.범죄btn.ForeColor = System.Drawing.Color.Blue;
-            this.범죄btn.Location = new System.Drawing.Point(292, 320);
+            this.범죄btn.Location = new System.Drawing.Point(334, 400);
+            this.범죄btn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.범죄btn.Name = "범죄btn";
-            this.범죄btn.Size = new System.Drawing.Size(105, 31);
+            this.범죄btn.Size = new System.Drawing.Size(120, 39);
             this.범죄btn.TabIndex = 7;
             this.범죄btn.Text = "예매하기";
             this.범죄btn.UseVisualStyleBackColor = false;
@@ -149,9 +157,10 @@
             this.라라btn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.라라btn.Font = new System.Drawing.Font("굴림", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.라라btn.ForeColor = System.Drawing.Color.Blue;
-            this.라라btn.Location = new System.Drawing.Point(530, 320);
+            this.라라btn.Location = new System.Drawing.Point(606, 400);
+            this.라라btn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.라라btn.Name = "라라btn";
-            this.라라btn.Size = new System.Drawing.Size(105, 31);
+            this.라라btn.Size = new System.Drawing.Size(120, 39);
             this.라라btn.TabIndex = 8;
             this.라라btn.Text = "예매하기";
             this.라라btn.UseVisualStyleBackColor = false;
@@ -163,9 +172,10 @@
             this.타짜btn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.타짜btn.Font = new System.Drawing.Font("굴림", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.타짜btn.ForeColor = System.Drawing.Color.Blue;
-            this.타짜btn.Location = new System.Drawing.Point(752, 320);
+            this.타짜btn.Location = new System.Drawing.Point(859, 400);
+            this.타짜btn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.타짜btn.Name = "타짜btn";
-            this.타짜btn.Size = new System.Drawing.Size(105, 31);
+            this.타짜btn.Size = new System.Drawing.Size(120, 39);
             this.타짜btn.TabIndex = 9;
             this.타짜btn.Text = "예매하기";
             this.타짜btn.UseVisualStyleBackColor = false;
@@ -177,9 +187,10 @@
             this.청년btn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.청년btn.Font = new System.Drawing.Font("굴림", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.청년btn.ForeColor = System.Drawing.Color.Blue;
-            this.청년btn.Location = new System.Drawing.Point(973, 320);
+            this.청년btn.Location = new System.Drawing.Point(1112, 400);
+            this.청년btn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.청년btn.Name = "청년btn";
-            this.청년btn.Size = new System.Drawing.Size(105, 31);
+            this.청년btn.Size = new System.Drawing.Size(120, 39);
             this.청년btn.TabIndex = 10;
             this.청년btn.Text = "예매하기";
             this.청년btn.UseVisualStyleBackColor = false;
@@ -191,9 +202,10 @@
             this.엑시btn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.엑시btn.Font = new System.Drawing.Font("굴림", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.엑시btn.ForeColor = System.Drawing.Color.Blue;
-            this.엑시btn.Location = new System.Drawing.Point(1218, 320);
+            this.엑시btn.Location = new System.Drawing.Point(1378, 400);
+            this.엑시btn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.엑시btn.Name = "엑시btn";
-            this.엑시btn.Size = new System.Drawing.Size(105, 31);
+            this.엑시btn.Size = new System.Drawing.Size(120, 39);
             this.엑시btn.TabIndex = 11;
             this.엑시btn.Text = "예매하기";
             this.엑시btn.UseVisualStyleBackColor = false;
@@ -201,12 +213,11 @@
             // 
             // 예매하기
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1390, 400);
+            this.ClientSize = new System.Drawing.Size(1142, 516);
             this.Controls.Add(this.엑시btn);
             this.Controls.Add(this.청년btn);
             this.Controls.Add(this.타짜btn);
@@ -219,7 +230,7 @@
             this.Controls.Add(this.라라랜드);
             this.Controls.Add(this.범죄도시);
             this.Controls.Add(this.극한직업);
-            this.DoubleBuffered = true;
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "예매하기";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.극한직업)).EndInit();
