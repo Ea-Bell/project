@@ -125,7 +125,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(95, 80);
             this.button2.TabIndex = 1;
-            this.button2.Text = "1관     12:00 ~ 14:03";
+            this.button2.Text = "1관     14:20 ~ 16:23";
             this.button2.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -140,7 +140,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(95, 77);
             this.button3.TabIndex = 2;
-            this.button3.Text = "1관     12:00 ~ 14:03";
+            this.button3.Text = "1관     16:30 ~ 18:33";
             this.button3.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
