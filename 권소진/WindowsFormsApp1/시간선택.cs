@@ -112,6 +112,7 @@ namespace WindowsFormsApp1
 
                 conn.Close();
             }
+            MessageBox.Show("성공");
         }
         
 
