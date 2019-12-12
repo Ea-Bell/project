@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(NewInfo));
             this.NewInfo_Lable_Id = new System.Windows.Forms.Label();
             this.NewInfo_Lable_Pw = new System.Windows.Forms.Label();
             this.NewInfo_Lable_PwCheck = new System.Windows.Forms.Label();
@@ -282,6 +283,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(469, 341);
             this.Controls.Add(this.비밀번호확인);
             this.Controls.Add(this.아이디중복체크);
