@@ -14,6 +14,7 @@ namespace WindowsFormsApp1
 {
     public partial class 시간선택 : Form
     {
+        
         string userid = ""; //로그인한 회원의 id 값을 저장 받음
         string times = ""; //해당 영화의 회차에 대한 값을 받음
         string seat = ""; // 현재 선택한 좌석의 값을 받음
@@ -56,37 +57,30 @@ namespace WindowsFormsApp1
         // ↓ 이벤트 처리기
         private void button1_Click(object sender, EventArgs e)
         {// 1회차 선택
-            times = "1";
-            
-            button1.BackColor = Color.Gray;
-            button1.ForeColor = Color.White;
 
-            button2.BackColor = Control.DefaultBackColor;
-            button2.ForeColor = Control.DefaultForeColor;
-            button3.BackColor = Control.DefaultBackColor;
-            button3.ForeColor = Control.DefaultForeColor;
+            button1.Font = new Font(FontFamily.GenericSansSerif,12.0F, FontStyle.Bold);
+
+            button2.Font = new Font(FontFamily.GenericSansSerif, 12.0F, FontStyle.Regular);
+            button3.Font = new Font(FontFamily.GenericSansSerif, 12.0F, FontStyle.Regular);
+
         }
         private void button2_Click(object sender, EventArgs e)
         {// 2회차 선택
             times = "2";
-            button2.BackColor = Color.Gray;
-            button2.ForeColor = Color.White;
+            button2.Font = new Font(FontFamily.GenericSansSerif, 12.0F, FontStyle.Bold);
 
-            button1.BackColor = Control.DefaultBackColor;
-            button1.ForeColor = Control.DefaultForeColor;
-            button3.BackColor = Control.DefaultBackColor;
-            button3.ForeColor = Control.DefaultForeColor;
+            button1.Font = new Font(FontFamily.GenericSansSerif, 12.0F, FontStyle.Regular);
+            button3.Font = new Font(FontFamily.GenericSansSerif, 12.0F, FontStyle.Regular);
+
         }
         private void button3_Click(object sender, EventArgs e)
         {// 3회차 선택
             times = "3";
-            button3.BackColor = Color.Gray;
-            button3.ForeColor = Color.White;
+            button3.Font = new Font(FontFamily.GenericSansSerif, 12.0F, FontStyle.Bold);
 
-            button2.BackColor = Control.DefaultBackColor;
-            button2.ForeColor = Control.DefaultForeColor;
-            button1.BackColor = Control.DefaultBackColor;
-            button1.ForeColor = Control.DefaultForeColor;
+            button2.Font = new Font(FontFamily.GenericSansSerif, 12.0F, FontStyle.Regular);
+            button1.Font = new Font(FontFamily.GenericSansSerif, 12.0F, FontStyle.Regular);
+
         }
 
         private void btn_commit_Click(object sender, EventArgs e)
