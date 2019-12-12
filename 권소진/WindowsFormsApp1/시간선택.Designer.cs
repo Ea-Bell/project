@@ -79,7 +79,7 @@
             this.button64 = new System.Windows.Forms.Button();
             this.button65 = new System.Windows.Forms.Button();
             this.button66 = new System.Windows.Forms.Button();
-            this.button67 = new System.Windows.Forms.Button();
+            this.좌석10 = new System.Windows.Forms.Button();
             this.button68 = new System.Windows.Forms.Button();
             this.button69 = new System.Windows.Forms.Button();
             this.button70 = new System.Windows.Forms.Button();
@@ -94,6 +94,7 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.btn_Commit = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -626,15 +627,16 @@
             this.button66.Text = "c02";
             this.button66.UseVisualStyleBackColor = false;
             // 
-            // button67
+            // 좌석10
             // 
-            this.button67.BackColor = System.Drawing.SystemColors.Control;
-            this.button67.Location = new System.Drawing.Point(72, 172);
-            this.button67.Name = "button67";
-            this.button67.Size = new System.Drawing.Size(33, 24);
-            this.button67.TabIndex = 63;
-            this.button67.Text = "B02";
-            this.button67.UseVisualStyleBackColor = false;
+            this.좌석10.BackColor = System.Drawing.SystemColors.Control;
+            this.좌석10.Location = new System.Drawing.Point(72, 172);
+            this.좌석10.Name = "좌석10";
+            this.좌석10.Size = new System.Drawing.Size(33, 24);
+            this.좌석10.TabIndex = 63;
+            this.좌석10.Text = "B02";
+            this.좌석10.UseVisualStyleBackColor = false;
+            this.좌석10.Click += new System.EventHandler(this.좌석10_Click);
             // 
             // button68
             // 
@@ -791,7 +793,7 @@
             this.groupBox2.Controls.Add(this.button23);
             this.groupBox2.Controls.Add(this.button66);
             this.groupBox2.Controls.Add(this.button22);
-            this.groupBox2.Controls.Add(this.button67);
+            this.groupBox2.Controls.Add(this.좌석10);
             this.groupBox2.Controls.Add(this.button21);
             this.groupBox2.Controls.Add(this.button52);
             this.groupBox2.Controls.Add(this.button17);
@@ -839,11 +841,20 @@
             this.btn_Commit.UseVisualStyleBackColor = true;
             this.btn_Commit.Click += new System.EventHandler(this.btn_commit_Click);
             // 
+            // label2
+            // 
+            this.label2.Location = new System.Drawing.Point(22, 338);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(702, 38);
+            this.label2.TabIndex = 81;
+            this.label2.Text = "label2";
+            // 
             // 시간선택
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(870, 385);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.btn_Commit);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -908,7 +919,7 @@
         private System.Windows.Forms.Button button64;
         private System.Windows.Forms.Button button65;
         private System.Windows.Forms.Button button66;
-        private System.Windows.Forms.Button button67;
+        private System.Windows.Forms.Button 좌석10;
         private System.Windows.Forms.Button button68;
         private System.Windows.Forms.Button button69;
         private System.Windows.Forms.Button button70;
@@ -923,5 +934,6 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Button btn_Commit;
+        private System.Windows.Forms.Label label2;
     }
 }

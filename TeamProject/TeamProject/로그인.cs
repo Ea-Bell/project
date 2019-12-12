@@ -74,6 +74,7 @@ namespace TeamProject
             // Tstingasdfasdfasddddasdfddd
             //아이디 체킹후 로그인하기.
            
+                    예매하기 예매 = new 예매하기(LogInForm_Text_ID.Text);
 
                     MessageBox.Show(LogInForm_Text_ID.Text + " 님 환영합니다.", "로그인 성공", MessageBoxButtons.OK);
                     LogInForm_Text_ID.Text = "";
@@ -81,7 +82,7 @@ namespace TeamProject
 
                     this.Visible = false;
 
-                    예매하기 예매 = new 예매하기(LogInForm_Text_ID.Text);
+                    
                     예매.ShowDialog();
 
                     this.Visible = true;
