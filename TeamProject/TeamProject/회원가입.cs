@@ -19,7 +19,6 @@ namespace TeamProject
         OracleCommandBuilder myCommandBuilder; 
         DataTable MemberTable; 
         string Scheck;
-
         private void DB_Open()
         {
             try
@@ -155,14 +154,14 @@ namespace TeamProject
                 }
                 catch (DataException DE)
                 {
-                    MessageBox.Show(DE.Message);
+                    //MessageBox.Show(DE.Message);
                     ErrorCheck = false;
                     //MessageBox.Show("이미 등록된 아이디");
                     //아이디중복체크.Visible = true;
                 }
                 catch (Exception DE)
                 {
-                    MessageBox.Show(DE.Message);
+                    //MessageBox.Show(DE.Message);
                     ErrorCheck = false;
                     //MessageBox.Show("이미 등록된 아이디");
                     아이디중복체크.Visible = true;

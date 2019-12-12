@@ -16,7 +16,7 @@ namespace TeamProject
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new 영화관리());
+            Application.Run(new LogInForm());
         }
     }
 }
