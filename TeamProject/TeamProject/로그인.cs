@@ -36,7 +36,7 @@ namespace TeamProject
 
         private void button2_Click(object sender, EventArgs e)
         {
-            예매하기 예매 = new 예매하기();
+            예매하기 예매 = new 예매하기("123");
             예매.ShowDialog();
             예매.Dispose();
         }
@@ -81,7 +81,7 @@ namespace TeamProject
 
                     this.Visible = false;
 
-                    예매하기 예매 = new 예매하기();
+                    예매하기 예매 = new 예매하기("123");
                     예매.ShowDialog();
 
                     this.Visible = true;

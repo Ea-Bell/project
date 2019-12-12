@@ -20,7 +20,7 @@ namespace TeamProject
 
         private void button1_Click(object sender, EventArgs e)
         {
-            예매하기 예매 = new 예매하기();
+            예매하기 예매 = new 예매하기("123");
             예매.Show();
           
         }
